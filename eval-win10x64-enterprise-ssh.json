@@ -31,7 +31,6 @@
       "cpus": "{{ user `cpus` }}",
       "cores": 1,
       "memory": "{{ user `memory` }}",
-      "disk_size": "{{user `disk_size`}}",
       "disk_adapter_type": "lsisas1068",
       "vm_name": "{{user `vm_name`}}",
       "ssh_username": "vagrant",
